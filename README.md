@@ -10,6 +10,8 @@ board**; please refer to the labels printed next to the connector when wiring to
 
 ## Code
 The code used on the hotswap board is included in this repository, but it could easily be re-made by
-tweaking code provided under examples in [ATTiny10IDE]'s repository.
+tweaking code provided under examples in [ATTiny10IDE]'s repository. All it does is set B0 low after
+1 second elapses, but given the time it takes for the microcontroller to start up, it could probably
+just set B0 low without waiting.
 
 [ATTiny10IDE]: https://github.com/wholder/ATTiny10IDE
